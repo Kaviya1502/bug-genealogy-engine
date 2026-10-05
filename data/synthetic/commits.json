@@ -1,0 +1,143 @@
+[
+  {
+    "commit_id": "COMMIT-101",
+    "message": "Fix coupon validation timeout during checkout",
+    "author": "dev-01",
+    "timestamp": "2026-01-12T14:30:00",
+    "version": "1.4.1",
+    "files_changed": [
+      "checkout/coupon_validator.py",
+      "checkout/service.py"
+    ],
+    "bug_ids": [
+      "BUG-001"
+    ]
+  },
+  {
+    "commit_id": "COMMIT-104",
+    "message": "Refresh search index after product updates",
+    "author": "dev-02",
+    "timestamp": "2026-01-16T11:20:00",
+    "version": "1.4.2",
+    "files_changed": [
+      "search/indexer.py",
+      "search/product_index.py"
+    ],
+    "bug_ids": [
+      "BUG-002"
+    ]
+  },
+  {
+    "commit_id": "COMMIT-109",
+    "message": "Prevent duplicate payment tokens during retry",
+    "author": "dev-03",
+    "timestamp": "2026-01-22T16:45:00",
+    "version": "1.4.3",
+    "files_changed": [
+      "payment/token_manager.py",
+      "payment/retry_handler.py"
+    ],
+    "bug_ids": [
+      "BUG-003"
+    ]
+  },
+  {
+    "commit_id": "COMMIT-115",
+    "message": "Improve promotional code validation handling",
+    "author": "dev-01",
+    "timestamp": "2026-02-05T13:10:00",
+    "version": "1.4.4",
+    "files_changed": [
+      "checkout/coupon_validator.py",
+      "checkout/service.py"
+    ],
+    "bug_ids": [
+      "BUG-004"
+    ]
+  },
+  {
+    "commit_id": "COMMIT-119",
+    "message": "Fix stale product search results",
+    "author": "dev-02",
+    "timestamp": "2026-02-11T10:15:00",
+    "version": "1.4.5",
+    "files_changed": [
+      "search/indexer.py",
+      "search/cache.py"
+    ],
+    "bug_ids": [
+      "BUG-005"
+    ]
+  },
+  {
+    "commit_id": "COMMIT-123",
+    "message": "Handle payment token cleanup after failed retry",
+    "author": "dev-03",
+    "timestamp": "2026-02-19T15:40:00",
+    "version": "1.4.6",
+    "files_changed": [
+      "payment/token_manager.py",
+      "payment/retry_handler.py"
+    ],
+    "bug_ids": [
+      "BUG-006"
+    ]
+  },
+  {
+    "commit_id": "COMMIT-131",
+    "message": "Reduce coupon validation latency during discounts",
+    "author": "dev-01",
+    "timestamp": "2026-03-03T12:25:00",
+    "version": "1.4.7",
+    "files_changed": [
+      "checkout/coupon_validator.py",
+      "checkout/discount_service.py"
+    ],
+    "bug_ids": [
+      "BUG-007"
+    ]
+  },
+  {
+    "commit_id": "COMMIT-136",
+    "message": "Handle empty responses from search index",
+    "author": "dev-02",
+    "timestamp": "2026-03-09T09:50:00",
+    "version": "1.4.8",
+    "files_changed": [
+      "search/indexer.py",
+      "search/query_service.py"
+    ],
+    "bug_ids": [
+      "BUG-008"
+    ]
+  },
+  {
+    "commit_id": "COMMIT-142",
+    "message": "Fix discount rule parsing for special coupon formats",
+    "author": "dev-04",
+    "timestamp": "2026-03-17T17:05:00",
+    "version": "1.4.9",
+    "files_changed": [
+      "checkout/discount_rule_parser.py",
+      "checkout/discount_service.py"
+    ],
+    "bug_ids": [
+      "BUG-009"
+    ]
+  },
+  {
+    "commit_id": "COMMIT-151",
+    "message": "Optimize checkout promotion validation",
+    "author": "dev-01",
+    "timestamp": "2026-03-27T14:00:00",
+    "version": "1.5.0",
+    "files_changed": [
+      "checkout/coupon_validator.py",
+      "checkout/service.py",
+      "checkout/discount_service.py"
+    ],
+    "bug_ids": [
+      "BUG-010"
+    ]
+  }
+]
